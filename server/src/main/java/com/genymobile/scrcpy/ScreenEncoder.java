@@ -31,6 +31,13 @@ public class ScreenEncoder implements Device.RotationListener {
     private boolean sendFrameMeta;
     private long ptsOrigin;
 
+    static{
+        System.loadLibrary("native-lib");
+        System.loadLibrary("avcodec");
+        System.loadLibrary("avformat");
+        System.loadLibrary("avutil");
+    }
+
     public ScreenEncoder(boolean sendFrameMeta, int bitRate, int maxFps, int iFrameInterval) {
         this.sendFrameMeta = sendFrameMeta;
         this.bitRate = bitRate;
@@ -102,8 +109,14 @@ public class ScreenEncoder implements Device.RotationListener {
                     if (sendFrameMeta) {
                         writeFrameMeta(fd, bufferInfo, codecBuffer.remaining());
                     }
+                    //rtmp--
 
+                    ByteBuffer rtmph264 = codecBuffer;
+                    stringFromeJNI(rtmph264);
+                    
                     IO.writeFully(fd, codecBuffer);
+
+                   // stringFromeJNI(rtmpbuff);
                 }
             } finally {
                 if (outputBufferId >= 0) {
@@ -111,7 +124,6 @@ public class ScreenEncoder implements Device.RotationListener {
                 }
             }
         }
-
         return !eof;
     }
 
@@ -186,4 +198,7 @@ public class ScreenEncoder implements Device.RotationListener {
     private static void destroyDisplay(IBinder display) {
         SurfaceControl.destroyDisplay(display);
     }
+
+    public native void stringFromeJNI(ByteBuffer rtmph264);
+    public native void a();
 }

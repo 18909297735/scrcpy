@@ -14,7 +14,6 @@
 #include "video_buffer.h"
 #include "util/buffer_util.h"
 #include "util/log.h"
-
 // set the decoded frame as ready for rendering, and notify
 static void
 push_frame(struct decoder *decoder) {

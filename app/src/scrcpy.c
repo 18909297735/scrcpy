@@ -33,8 +33,8 @@ static struct screen screen = SCREEN_INITIALIZER;
 static struct fps_counter fps_counter;
 static struct video_buffer video_buffer;
 static struct stream stream;
-static struct decoder decoder;
-static struct recorder recorder;
+static struct decoder decoder;//jie ma
+static struct recorder recorder;//lu xiang
 static struct controller controller;
 static struct file_handler file_handler;
 
@@ -275,8 +275,10 @@ av_log_callback(void *avcl, int level, const char *fmt, va_list vl) {
     SDL_free(local_fmt);
 }
 
+
+//scrcpy--
 bool
-scrcpy(const struct scrcpy_options *options) {
+scrcpy(const struct scrcpy_options *optinos) {
     bool record = !!options->record_filename;
     struct server_params params = {
         .crop = options->crop,

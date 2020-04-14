@@ -14,10 +14,11 @@ public final class Server {
     private Server() {
         // not instantiable
     }
-
     private static void scrcpy(Options options) throws IOException {
         final Device device = new Device(options);
         boolean tunnelForward = options.isTunnelForward();
+
+
         try (DesktopConnection connection = DesktopConnection.open(device, tunnelForward)) {
             ScreenEncoder screenEncoder = new ScreenEncoder(options.getSendFrameMeta(), options.getBitRate(), options.getMaxFps());
 
@@ -32,6 +33,8 @@ public final class Server {
             try {
                 // synchronous
                 screenEncoder.streamScreen(device, connection.getVideoFd());
+                
+
             } catch (IOException e) {
                 // this is expected on close
                 Ln.d("Screen streaming stopped");

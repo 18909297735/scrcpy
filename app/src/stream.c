@@ -214,7 +214,7 @@ run_stream(void *data) {
         }
     }
 
-    stream->parser = av_parser_init(AV_CODEC_ID_H264);
+    stream->parser = av_parser_init(AV_CODEC_ID_H/264);
     if (!stream->parser) {
         LOGE("Could not initialize parser");
         goto finally_stop_and_join_recorder;

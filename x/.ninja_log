@@ -1,0 +1,27 @@
+# ninja log v5
+2	171	1585644911	app/scrcpy@exe/src_control_msg.c.o	d9265edd8a3ba408
+3	173	1585644911	app/scrcpy@exe/src_controller.c.o	2e58e646e7ee836
+1	174	1585644911	app/scrcpy@exe/src_command.c.o	e0225a93825f2ff8
+171	252	1585644911	app/scrcpy@exe/src_device.c.o	3550b987987e7044
+173	254	1585644911	app/scrcpy@exe/src_device_msg.c.o	21aee78e3ddc7624
+174	271	1585644911	app/scrcpy@exe/src_event_converter.c.o	50d0596d425c80c7
+3	347	1585644911	app/scrcpy@exe/src_decoder.c.o	598a9a33c9cedfb3
+254	391	1585644911	app/scrcpy@exe/src_fps_counter.c.o	997357125bc94947
+253	424	1585644911	app/scrcpy@exe/src_file_handler.c.o	134004376564e573
+347	494	1585644911	app/scrcpy@exe/src_receiver.c.o	55c8ff79dd2c193b
+392	614	1585644911	app/scrcpy@exe/src_recorder.c.o	240f1e5397e10083
+0	867	1585644911	app/scrcpy@exe/src_main.c.o	33ab015c625f80d6
+0	912	1585644911	app/scrcpy@exe/src_cli.c.o	41af7a5b51bb461f
+614	951	1585644911	app/scrcpy@exe/src_server.c.o	239594c148bbf237
+271	1121	1585644911	app/scrcpy@exe/src_input_manager.c.o	71eee52aaceebf12
+894	1143	1585644912	app/scrcpy@exe/src_stream.c.o	27bea8a11c86075c
+495	1156	1585644912	app/scrcpy@exe/src_screen.c.o	a08326cc6574c0e4
+952	1160	1585644912	app/scrcpy@exe/src_video_buffer.c.o	17d2504585d0ef86
+1160	1241	1585644912	app/scrcpy@exe/src_sys_unix_net.c.o	171b55ca5dab503c
+1143	1308	1585644912	app/scrcpy@exe/src_util_str_util.c.o	3f6666c935980738
+424	1324	1585644912	app/scrcpy@exe/src_scrcpy.c.o	b792e772a966e98e
+1121	1354	1585644912	app/scrcpy@exe/src_util_net.c.o	7ccefe07e8286315
+1156	1386	1585644912	app/scrcpy@exe/src_sys_unix_command.c.o	f6a732816079c4ef
+912	1414	1585644912	app/scrcpy@exe/src_tiny_xpm.c.o	ea6b40cb90d19f9f
+1415	3127	1585644913	app/scrcpy	78402b2cbc917632
+1241	40648	1585644951	server/scrcpy-server	4e4da34da7715cb3

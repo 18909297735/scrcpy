@@ -1,0 +1,122 @@
+[
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_main.c.o' -MF 'app/scrcpy@exe/src_main.c.o.d' -o 'app/scrcpy@exe/src_main.c.o' -c ../app/src/main.c",
+    "file": "../app/src/main.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_cli.c.o' -MF 'app/scrcpy@exe/src_cli.c.o.d' -o 'app/scrcpy@exe/src_cli.c.o' -c ../app/src/cli.c",
+    "file": "../app/src/cli.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_command.c.o' -MF 'app/scrcpy@exe/src_command.c.o.d' -o 'app/scrcpy@exe/src_command.c.o' -c ../app/src/command.c",
+    "file": "../app/src/command.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_control_msg.c.o' -MF 'app/scrcpy@exe/src_control_msg.c.o.d' -o 'app/scrcpy@exe/src_control_msg.c.o' -c ../app/src/control_msg.c",
+    "file": "../app/src/control_msg.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_controller.c.o' -MF 'app/scrcpy@exe/src_controller.c.o.d' -o 'app/scrcpy@exe/src_controller.c.o' -c ../app/src/controller.c",
+    "file": "../app/src/controller.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_decoder.c.o' -MF 'app/scrcpy@exe/src_decoder.c.o.d' -o 'app/scrcpy@exe/src_decoder.c.o' -c ../app/src/decoder.c",
+    "file": "../app/src/decoder.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_device.c.o' -MF 'app/scrcpy@exe/src_device.c.o.d' -o 'app/scrcpy@exe/src_device.c.o' -c ../app/src/device.c",
+    "file": "../app/src/device.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_device_msg.c.o' -MF 'app/scrcpy@exe/src_device_msg.c.o.d' -o 'app/scrcpy@exe/src_device_msg.c.o' -c ../app/src/device_msg.c",
+    "file": "../app/src/device_msg.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_event_converter.c.o' -MF 'app/scrcpy@exe/src_event_converter.c.o.d' -o 'app/scrcpy@exe/src_event_converter.c.o' -c ../app/src/event_converter.c",
+    "file": "../app/src/event_converter.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_file_handler.c.o' -MF 'app/scrcpy@exe/src_file_handler.c.o.d' -o 'app/scrcpy@exe/src_file_handler.c.o' -c ../app/src/file_handler.c",
+    "file": "../app/src/file_handler.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_fps_counter.c.o' -MF 'app/scrcpy@exe/src_fps_counter.c.o.d' -o 'app/scrcpy@exe/src_fps_counter.c.o' -c ../app/src/fps_counter.c",
+    "file": "../app/src/fps_counter.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_input_manager.c.o' -MF 'app/scrcpy@exe/src_input_manager.c.o.d' -o 'app/scrcpy@exe/src_input_manager.c.o' -c ../app/src/input_manager.c",
+    "file": "../app/src/input_manager.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_receiver.c.o' -MF 'app/scrcpy@exe/src_receiver.c.o.d' -o 'app/scrcpy@exe/src_receiver.c.o' -c ../app/src/receiver.c",
+    "file": "../app/src/receiver.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_recorder.c.o' -MF 'app/scrcpy@exe/src_recorder.c.o.d' -o 'app/scrcpy@exe/src_recorder.c.o' -c ../app/src/recorder.c",
+    "file": "../app/src/recorder.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_scrcpy.c.o' -MF 'app/scrcpy@exe/src_scrcpy.c.o.d' -o 'app/scrcpy@exe/src_scrcpy.c.o' -c ../app/src/scrcpy.c",
+    "file": "../app/src/scrcpy.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_screen.c.o' -MF 'app/scrcpy@exe/src_screen.c.o.d' -o 'app/scrcpy@exe/src_screen.c.o' -c ../app/src/screen.c",
+    "file": "../app/src/screen.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_server.c.o' -MF 'app/scrcpy@exe/src_server.c.o.d' -o 'app/scrcpy@exe/src_server.c.o' -c ../app/src/server.c",
+    "file": "../app/src/server.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_stream.c.o' -MF 'app/scrcpy@exe/src_stream.c.o.d' -o 'app/scrcpy@exe/src_stream.c.o' -c ../app/src/stream.c",
+    "file": "../app/src/stream.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_tiny_xpm.c.o' -MF 'app/scrcpy@exe/src_tiny_xpm.c.o.d' -o 'app/scrcpy@exe/src_tiny_xpm.c.o' -c ../app/src/tiny_xpm.c",
+    "file": "../app/src/tiny_xpm.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_video_buffer.c.o' -MF 'app/scrcpy@exe/src_video_buffer.c.o.d' -o 'app/scrcpy@exe/src_video_buffer.c.o' -c ../app/src/video_buffer.c",
+    "file": "../app/src/video_buffer.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_util_net.c.o' -MF 'app/scrcpy@exe/src_util_net.c.o.d' -o 'app/scrcpy@exe/src_util_net.c.o' -c ../app/src/util/net.c",
+    "file": "../app/src/util/net.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_util_str_util.c.o' -MF 'app/scrcpy@exe/src_util_str_util.c.o.d' -o 'app/scrcpy@exe/src_util_str_util.c.o' -c ../app/src/util/str_util.c",
+    "file": "../app/src/util/str_util.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_sys_unix_command.c.o' -MF 'app/scrcpy@exe/src_sys_unix_command.c.o.d' -o 'app/scrcpy@exe/src_sys_unix_command.c.o' -c ../app/src/sys/unix/command.c",
+    "file": "../app/src/sys/unix/command.c"
+  },
+  {
+    "directory": "/home/wushaojie/scrcpy/x",
+    "command": "cc  -Iapp/scrcpy@exe -Iapp -I../app -I../app/src -I/usr/include/x86_64-linux-gnu -I/usr/include/SDL2 -flto -fdiagnostics-color=always -pipe -D_FILE_OFFSET_BITS=64 -Wall -Winvalid-pch -Wextra -std=c11 -O3 -D_REENTRANT -MD -MQ 'app/scrcpy@exe/src_sys_unix_net.c.o' -MF 'app/scrcpy@exe/src_sys_unix_net.c.o.d' -o 'app/scrcpy@exe/src_sys_unix_net.c.o' -c ../app/src/sys/unix/net.c",
+    "file": "../app/src/sys/unix/net.c"
+  }
+]

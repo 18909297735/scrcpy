@@ -1,0 +1,38 @@
+Build started at 2020-03-31T01:55:03.036944
+Main binary: /usr/bin/python3
+Python system: Linux
+The Meson build system
+Version: 0.45.1
+Source dir: /home/wushaojie/scrcpy
+Build dir: /home/wushaojie/scrcpy/x
+Build type: native build
+Project name: scrcpy
+Sanity testing C compiler: cc
+Is cross compiler: False.
+Sanity check compiler command line: cc /home/wushaojie/scrcpy/x/meson-private/sanitycheckc.c -o /home/wushaojie/scrcpy/x/meson-private/sanitycheckc.exe
+Sanity check compile stdout:
+
+-----
+Sanity check compile stderr:
+
+-----
+Running test binary command: /home/wushaojie/scrcpy/x/meson-private/sanitycheckc.exe
+Native C compiler: cc (gcc 7.5.0 "cc (Ubuntu 7.5.0-3ubuntu1~18.04) 7.5.0")
+Build machine cpu family: x86_64
+Build machine cpu: x86_64
+Found pkg-config: /usr/bin/pkg-config (0.29.1)
+Determining dependency 'libavformat' with pkg-config executable '/usr/bin/pkg-config'
+Native dependency libavformat found: YES 57.83.100
+Determining dependency 'libavcodec' with pkg-config executable '/usr/bin/pkg-config'
+Native dependency libavcodec found: YES 57.107.100
+Determining dependency 'libavutil' with pkg-config executable '/usr/bin/pkg-config'
+Native dependency libavutil found: YES 55.78.100
+Determining dependency 'sdl2' with pkg-config executable '/usr/bin/pkg-config'
+Native dependency sdl2 found: YES 2.0.8
+Configuring config.h using configuration
+Program ./scripts/build-wrapper.sh found: YES (/home/wushaojie/scrcpy/server/./scripts/build-wrapper.sh)
+server/meson.build:5: WARNING: Passed invalid keyword argument "console".
+WARNING: This will become a hard error in the future.
+WARNING: Unknown keyword arguments in target scrcpy-server: console
+Build targets in project: 3
+Found ninja-1.8.2 at /usr/bin/ninja
